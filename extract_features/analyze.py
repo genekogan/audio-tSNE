@@ -44,12 +44,6 @@ for i,f in enumerate(files):
 	#except:
 	#	print "missed %s"%f
 	
-	
-i’m not connected to the infosec community but i spent 2 days with @ioerror at @cis_india. even then the megalomania was apparent
-
-if he had been a simple megalomaniac rather than a rapist, it would probably just continue
-	
-
 save_path = '/Users/Gene/Desktop/audiotsnetest.json'
 
 model = TSNE(n_components=2, perplexity=30, verbose=2, angle=0.1).fit_transform([f["features"] for f in feature_vectors])
